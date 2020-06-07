@@ -1,7 +1,7 @@
 Header header
 
-int64 force_tick_offset
-int64 torque_tick_offset
+int64 force_offset                  # in ticks
+int64 torque_offset                 # in ticks
 
-float32 force_gain
-float32 torque_gain
+float32 force_scale                 # kg/ticks (compute from calibration weight)
+float32 torque_scale                # kg/ticks (compute from calibration weight)
