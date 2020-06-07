@@ -1,4 +1,4 @@
 Header header
 
-int64 force_tick
-int64 torque_tick
+int64 force                 # in ticks
+int64 torque                # in ticks
